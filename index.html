@@ -1,255 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
+
 <head>
-<meta charset="UTF-8">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
+    <title>Dostaffkin — Доставка посылок между странами и внутри стран. Безопасно. Быстро. В целости и сохранности!
+    </title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>CinemaClub — подбор фильмов на вечер</title>
-
-<script src="https://cdn.tailwindcss.com"></script>
-
-<style>
-
-    .hero-bg {
-
-        background: linear-gradient(135deg, #ff7e5f, #feb47b);
-
-    }
-
-</style>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/base_adaptive.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/index_adaptive.css" />
 
 </head>
-<body class="font-sans">
-<header class="flex justify-between items-center p-6 bg-white shadow">
-<h1 class="text-2xl font-bold text-gray-800">CinemaClub</h1>
 
-<nav class="space-x-4">
+<body>
 
-    <a href="#how-it-works" class="text-gray-600 hover:text-gray-800">Как работает</a>
+    <div class="container">
 
-    <a href="#pricing" class="text-gray-600 hover:text-gray-800">Тарифы</a>
+        <header class="header">
 
-</nav>
+            <a class="header-brand" href="#">
+                <div class="header-logo">D</div>
+                <div class="header-title">Dostaffkin</div>
 
-<a href="#apply" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Оформить</a>
+                <nav class="header-menu">
+                    <a class="header-link" href="#">Оформить <span>доставку</span></a>
+                    <a class="header-link" href="#">Отследить <span>посылку</span></a>
+                </nav>
 
-</header>
-<section class="hero-bg text-white py-20 flex flex-col md:flex-row items-center">
-<div class="md:w-1/2 p-8">
+        </header>
 
-    <h2 class="text-4xl font-bold">Нужен идеальный фильм?</h2>
+        <main class="main">
 
-    <p class="mt-4 text-xl">Мы поможем вам с подбором фильмов на вечер!</p>
+            <section class="main-info">
+                <div class="main-title">
+                    <span>D</span>ostaffkin
+                </div>
 
-    <div class="mt-8">
+                <div class="main-features">
+                    <div class="main-feature">Отслеживание 24/7</div>
+                    <div class="main-feature">Лучшие маршруты</div>
+                    <div class="main-feature">Страхование посылок</div>
+                    <div class="main-feature">Доставка в срок</div>
+                    <div class="main-feature">Выгодные тарифы</div>
+                </div>
 
-        <a href="#apply" class="inline-block px-6 py-3 bg-blue-600 rounded hover:bg-blue-700">Получить подборку</a>
+                <div class="main-description">
+                    Доставка посылок между странами и внутри стран.
+                    Безопасно. Быстро. В целости и сохранности!
+                </div>
 
-        <a href="#pricing" class="ml-4 inline-block px-6 py-3 bg-transparent border border-white rounded hover:bg-white hover:text-blue-600">Тарифы</a>
+                <div class="main-actions">
+                    <a class="button" type="button" href="./order.html">Заказать доставку</a>
+                    <a class="button button-white" type="button" href="./track.html">Отследить посылку</a>
+                </div>
 
-    </div>
+                <div class="main-title-ghost">Dostaffkin</div>
 
-</div>
+            </section>
 
-<div class="md:w-1/2 flex justify-center">
+            <section class="main-image">
+                <img src="images/main-image.png" alt="Main image" />
+            </section>
 
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-64 w-64" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-7 7-7-7M5 15h14" />
-
-        <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="30">🎬</text>
-
-    </svg>
-
-</div>
-
-</section>
-<section id="how-it-works" class="py-20">
-<div class="container mx-auto text-center">
-
-    <h3 class="text-3xl font-semibold">Как работает?</h3>
-
-    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-10">
-
-        <div>
-
-            <h4 class="text-2xl font-bold">Шаг 1</h4>
-
-            <p>Заполните форму с вашими предпочтениями.</p>
-
-        </div>
-
-        <div>
-
-            <h4 class="text-2xl font-bold">Шаг 2</h4>
-
-            <p>Получите подборку фильмов на ваш вкус.</p>
-
-        </div>
-
-        <div>
-
-            <h4 class="text-2xl font-bold">Шаг 3</h4>
-
-            <p>Наслаждайтесь своим вечером с идеальными фильмами!</p>
-
-        </div>
+        </main>
 
     </div>
 
-</div>
-
-</section>
-<section id="pricing" class="py-20 bg-gray-100">
-<div class="container mx-auto text-center">
-
-    <h3 class="text-3xl font-semibold">Тарифы</h3>
-
-    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-10">
-
-        <div class="border rounded p-5">
-
-            <h4 class="text-xl font-bold">Start</h4>
-
-            <p>Цена: 500₽</p>
-
-            <ul class="mt-4 text-left">
-
-                <li>4 фильма в месяц</li>
-
-                <li>Подбор по жанрам</li>
-
-                <li>Неограниченное время просмотра</li>
-
-                <li>Поддержка через email</li>
-
-            </ul>
-
-            <a href="#apply" class="mt-4 inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Выбрать</a>
-
-        </div>
-
-        <div class="border rounded p-5">
-
-            <h4 class="text-xl font-bold">Plus</h4>
-
-            <p>Цена: 1000₽</p>
-
-            <ul class="mt-4 text-left">
-
-                <li>8 фильмов в месяц</li>
-
-                <li>Подбор по настроению</li>
-
-                <li>Неограниченное время просмотра</li>
-
-                <li>Приоритетная поддержка</li>
-
-            </ul>
-
-            <a href="#apply" class="mt-4 inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Выбрать</a>
-
-        </div>
-
-        <div class="border rounded p-5">
-
-            <h4 class="text-xl font-bold">Pro</h4>
-
-            <p>Цена: 1500₽</p>
-
-            <ul class="mt-4 text-left">
-
-                <li>Неограниченное количество фильмов</li>
-
-                <li>Индивидуальный подход к подбору</li>
-
-                <li>Неограниченное время просмотра</li>
-
-                <li>Личный менеджер</li>
-
-            </ul>
-
-            <a href="#apply" class="mt-4 inline-block px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Выбрать</a>
-
-        </div>
-
-    </div>
-
-</div>
-
-</section>
-<section id="apply" class="py-20">
-<div class="container mx-auto text-center">
-
-    <h3 class="text-3xl font-semibold">Оформление заявки</h3>
-
-    <form class="mt-10 max-w-md mx-auto" id="contact-form">
-
-        <input type="text" name="name" placeholder="Имя" class="p-3 border rounded w-full mb-4" required>
-
-        <input type="tel" name="phone" placeholder="Телефон" class="p-3 border rounded w-full mb-4" required>
-
-        <select name="tariff" class="p-3 border rounded w-full mb-4" required>
-
-            <option value="">Выберите тариф</option>
-
-            <option value="start">Start</option>
-
-            <option value="plus">Plus</option>
-
-            <option value="pro">Pro</option>
-
-        </select>
-
-        <textarea name="comment" placeholder="Комментарий (необяз.)" class="p-3 border rounded w-full mb-4"></textarea>
-
-        <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Получить подборку</button>
-
-    </form>
-
-    <p class="mt-4 text-xs text-gray-500">Данные не передаются третьим лицам.</p>
-
-</div>
-
-</section>
-<footer class="py-6 bg-gray-800 text-white text-center">
-<p>&copy; 2023 CinemaClub. Все права защищены.</p>
-
-<div class="mt-2">
-
-    <a href="#" class="text-gray-400 hover:text-gray-200">Политика конфиденциальности</a>
-
-    <span class="mx-2">|</span>
-
-    <a href="#" class="text-gray-400 hover:text-gray-200">Контакты</a>
-
-</div>
-
-</footer>
-<script>
-document.getElementById('contact-form').onsubmit = function(event) {
-
-    event.preventDefault();
-
-    const name = this.name.value.trim();
-
-    const phone = this.phone.value.trim();
-
-    const tariff = this.tariff.value;
-
-    if (name && phone && tariff) {
-
-        alert("Отлично! Мы свяжемся и отправим подборку.");
-
-    } else {
-
-        alert("Заполните имя, телефон и выберите тариф.");
-
-    }
-
-};
-
-</script>
 </body>
+
 </html>
